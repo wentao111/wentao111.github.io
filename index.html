@@ -1,18 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<title>
-页面标题</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hentai- my site</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 2rem;
+            background: linear-gradient(to right, #1e1e1e, #292929);
+            position: relative;
+            z-index: 1;
+            transition: background 0.5s ease; /* 平滑过渡效果 */
+        }
+
+        header:hover {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            animation: neon 1.5s infinite alternate;
+            transition: transform 0.5s ease; /* 平滑过渡效果 */
+        }
+
+        h1:hover {
+            transform: rotate(360deg);
+        }
+
+        p {
+            color: #a0a0a0;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        @keyframes neon {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff7e5f, 0 0 70px #ff7e5f, 0 0 80px #ff7e5f, 0 0 100px #ff7e5f;
+            }
+            to {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff7e5f, 0 0 40px #ff7e5f, 0 0 50px #ff7e5f, 0 0 60px #ff7e5f;
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* 添加底部版权信息的显示动画 */
+        body:hover footer {
+            opacity: 1;
+        }
+    </style>
 </head>
 <body>
- 
-<h1>欢迎！</h1> 
-  
-<p>我的第一个个人网站</p>
+    <header>
+        <h1>Welcome！</h1>
+        <p>我的QQ927510475</p>
+    </header>
 
-  <p>下面是我的信息</p>
-  
-  <a> href="https://www.douyin.com/user/MS4wLjABAAAA6_DoTm6J41KpWH7uVUpNFeBI-YlvNq5K688t3vYI-ug?enter_from=search_result&enter_method=search_result&extra_params=%7B%22search_params%22%3A%7B%22search_result_id%22%3A%22110734004889%22%2C%22relation_tag%22%3A0%2C%22search_type%22%3A%22user%22%2C%22impr_id%22%3A%2220230731191709DC3F28C18A259106CC03%22%2C%22search_id%22%3A%2220230731191709DC3F28C18A259106CC03%22%2C%22search_keyword%22%3A%22我是申鹤的狗%22%7D%7D"</a>
+    <section>
+        <h2>关于我</h2>
+        <p>一个畜中牲</p>
+    </section>
+
+    <section>
+        <h2>项目</h2>
+        <p>这是我的第一个项目</p>
+        <!-- 在这里添加项目详情和链接 -->wentao111.github.io
+    </section>
+
+    <section>
+        <h2>联系我</h2>
+        <p>随时联系我：</p>
+        <!-- 在这里添加联系信息或联系表单 -->927510475
+    </section>
 </body>
 </html>
